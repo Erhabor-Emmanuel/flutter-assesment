@@ -211,9 +211,9 @@ class CustomGrid extends StatelessWidget {
       crossAxisSpacing: 3.0.r,
       children: <Widget> [
         TransactionCard(title: Strings.borrow, subTitle: Strings.loanText, bottomLabel: Strings.view, icon: Icons.work,iconColor: Colors.amber.shade800, backgroundColor: kLightYellow,subTextStyle: kLoanText,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.amber.shade200,),
-        TransactionCard(title: Strings.save, subTitle: Strings.saveSub, bottomLabel: Strings.start, icon: Icons.work,iconColor: Colors.greenAccent.shade700, backgroundColor: kLightGreen,subTextStyle: kLoanText,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.greenAccent.shade200,),
-        TransactionCard(title: Strings.spend, subTitle: Strings.spendSub, bottomLabel: Strings.spend, icon: Icons.work,iconColor: Colors.redAccent.shade700, backgroundColor: kLightRed,subTextStyle: kLoanText,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.redAccent.shade100,),
-        TransactionCard(title: Strings.invest, subTitle: Strings.investSub, bottomLabel: Strings.invest, icon: Icons.work,iconColor: Colors.blueAccent.shade700, backgroundColor: kDarkBlue,subTextStyle: kLoanText,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.blueAccent.shade100,),
+        TransactionCard(title: Strings.save, subTitle: Strings.saveSub, bottomLabel: Strings.start, icon: Icons.work,iconColor: Colors.greenAccent.shade700, backgroundColor: kLightGreen,subTextStyle: kSaveText,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.greenAccent.shade200,),
+        TransactionCard(title: Strings.spend, subTitle: Strings.spendSub, bottomLabel: Strings.spend, icon: Icons.work,iconColor: Colors.redAccent.shade700, backgroundColor: kLightRed,subTextStyle: kSpend,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.redAccent.shade100,),
+        TransactionCard(title: Strings.invest, subTitle: Strings.investSub, bottomLabel: Strings.invest, icon: Icons.work,iconColor: Colors.blueAccent.shade700, backgroundColor: kDarkBlue,subTextStyle: kInvest,bottomLabelTextStyle: kViewOffer, avatarColor: Colors.blueAccent.shade100,),
 
       ],
     );

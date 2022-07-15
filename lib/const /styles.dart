@@ -15,7 +15,6 @@ const Color kWhite = Color(0xffffffff);
 const Color kLightYellow = Color(0xffFCF4E9);
 
 
- var myRichRunesMessage =  Runes('2018 \U+20A6 Author\'s Name');
 
 TextStyle kAppBarStyle = GoogleFonts.roboto(
   color: kBlack,
@@ -79,6 +78,17 @@ TextStyle kViewOffer= GoogleFonts.roboto(
 
 TextStyle kSaveText= GoogleFonts.roboto(
 fontSize: 14.sp,
-color: Colors.greenAccent.shade400,
+color: Colors.greenAccent.shade700,
 fontWeight: FontWeight.w400
+);
+TextStyle kSpend= GoogleFonts.roboto(
+    fontSize: 14.sp,
+    color: Colors.redAccent.shade700,
+    fontWeight: FontWeight.w400
+);
+
+TextStyle kInvest= GoogleFonts.roboto(
+    fontSize: 14.sp,
+    color: Colors.blueAccent.shade700,
+    fontWeight: FontWeight.w400
 );
